@@ -12,27 +12,30 @@
 
 <body>
   <header class="header">
-    <h1>Totito game</h1>
+    <h1 id="title">Totito game</h1>
   </header>
   <main class="main">
     <div class="container">
       <div class="row1">
-        <div class="box">x</div>
-        <div class="box">x</div>
-        <div class="box">x</div>
+        <div cell="1" class="box" onclick="canvasClicked(this);"></div>
+        <div cell="2" class="box" onclick="canvasClicked(this);"></div>
+        <div cell="3" class="box" onclick="canvasClicked(this);"></div>
       </div>
       <div class="row2">
-        <div class="box">o</div>
-        <div class="box">o</div>
-        <div class="box">o</div>
+        <div cell="4" class="box" onclick="canvasClicked(this);"></div>
+        <div cell="5" class="box" onclick="canvasClicked(this);"></div>
+        <div cell="6" class="box" onclick="canvasClicked(this);"></div>
       </div>
       <div class="row3">
-        <div class="box">c</div>
-        <div class="box">c</div>
-        <div class="box">c</div>
+        <div cell="7" class="box" onclick="canvasClicked(this);"></div>
+        <div cell="8" class="box" onclick="canvasClicked(this);"></div>
+        <div cell="9" class="box" onclick="canvasClicked(this);"></div>
       </div>
     </div>
   </main>
+  <div class="footer">
+
+  </div>
   <script src="./js/main.js"></script>
 </body>
 
